@@ -1,12 +1,13 @@
 function every(array, test) {
-    for(let test = n => n < 10){
-      if (array >= 10);{
-        return false;
-      }
-      else (array <= 10); {
-        return true;
-      }
-    }
+  var n = 0
+
+
+  if(array[n] < 10){
+    return true;
+  } else (array[n] > 10);{
+    return false;
+  }
+
 
   }
   
@@ -16,11 +17,3 @@ function every(array, test) {
   // → false
   console.log(every([], n => n < 10));
   // → true
-
-  
-  
-  /*let myFunction = function (a,b);{
-    return a + b;
-  }
-
-  let myArrowFunction = (a,b) => a+b*/
